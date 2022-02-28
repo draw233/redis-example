@@ -23,6 +23,7 @@ public class BucketTest extends RedisExampleApplicationTests {
         // set data
         bucket.set("bar");
 
+        bucket.size();
         // getAndSet
         bucket.getAndSet("bar2", 10L, TimeUnit.HOURS);
         RFuture<Integer> name_del = bucket.addListenerAsync(new DeletedObjectListener() {
