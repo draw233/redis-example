@@ -3,7 +3,6 @@ package com.example.redisexample.redisson;
 import com.example.redisexample.RedisExampleApplicationTests;
 import org.junit.jupiter.api.Test;
 import org.redisson.api.RBloomFilter;
-import org.redisson.api.RBucket;
 
 /**
  * @author mirau on 2022/3/17.
